@@ -1,0 +1,76 @@
+<!--index.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chess Game</title>
+	<!-- Chessboard.js CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard.min.css">
+	<link rel="stylesheet" href="style.css">	
+</head>
+<body>
+	<!-- index.html -->
+
+<body>
+	<h1>Interactive Chess Game</h1>
+  
+	<!-- Game Information -->
+	<div id="game-info">
+	  <div id="turn-info">Turn: White</div>
+	  <div id="captured-pieces">
+		<div id="captured-white"></div>
+		<div id="captured-black"></div>
+	  </div>
+	</div>
+  
+	<!-- Chessboard -->
+	<div id="board" style="width: 500px"></div>
+  
+	<!-- Move History -->
+	<div id="move-history">
+	  <h2>Move History</h2>
+	  <table>
+		<thead>
+		  <tr>
+			<th>Move</th>
+			<th>White</th>
+			<th>Black</th>
+		  </tr>
+		</thead>
+		<tbody id="history-body">
+		</tbody>
+	  </table>
+	</div>
+  
+	<!-- Reset Button -->
+	<button id="resetBtn">Reset Game</button>
+  
+	<!-- Timers -->
+	<div id="timers">
+	  <div class="timer">White Timer: <span id="white-timer">05:00</span></div>
+	  <div class="timer">Black Timer: <span id="black-timer">05:00</span></div>
+	</div>
+
+  
+	<div id="board" style="width: 500px"></div>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    
+	<!-- Include Libraries -->
+	<!-- Chessboard.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chessboard.js/1.0.0/chessboard.min.js"></script>
+	<!-- Chess.js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+	<!-- Your JavaScript -->
+	<script src="app.js"></script>
+	
+	
+
+    <footer>
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
